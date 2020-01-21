@@ -1,20 +1,20 @@
 html, body {
-	font-family: Helvetica;
+    font-family: Helvetica;
 }
 
 #container {
-	width: 300px;
-	height: 500px;
-	padding: 20px;
-	margin: 40px auto 0;
-	border: solid 1px #ddd;
-	overflow: auto;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin: 40px auto 0;
+    border: solid 1px #ddd;
+    overflow: auto;
 }
 
 section {
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .current {
-	background-color: #ddd;
+    background-color: #ddd;
 }
