@@ -34,7 +34,7 @@ class InViewportObserver {
                 if (this.visibleItems[0].target.getAttribute('id') !== this.current) {
                     this.current = this.visibleItems[0].target.getAttribute('id');
 
-                    this.callback(this.visibleItems[0]);
+                    this.callback(this.visibleItems);
                 }
             }
         }, {
